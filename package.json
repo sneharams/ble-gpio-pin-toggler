@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
+  "author": {
+    "name": "Sneha Ramachandran",
+    "email": "sneharams99@gmail.com"
+  },
   "scripts": {
     "start": "node index.js",
     "serve": "vue-cli-service serve",
