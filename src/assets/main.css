@@ -1,0 +1,53 @@
+@import "./base.css";
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.blue {
+  text-decoration: none;
+  color: var(--ms-c-blue);
+  transition: 0.4s;
+}
+
+a:hover {
+    background-color: var(--ms-c-blue-tl);
+}
+
+.btn-blue {
+  background-color: var(--ms-c-blue-tl);
+  transition: 0.4s;
+}
+
+.btn-blue:hover {
+  background-color: var(--ms-c-blue);
+}
+
+.btn-blue-inv {
+  background-color: var(--ms-c-blue-tl-inv);
+  transition: 0.4s;
+}
+
+.btn-blue-inv:hover {
+  background-color: var(--ms-c-blue-inv);
+}
+
+.icon {
+  width: 32px !important;
+  height: 32px !important;
+  padding: 4px;
+  border-radius: 16px;
+}
+
+.inverted {
+  filter: invert(100%);
+}
+
+.btn-txt {
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+}
