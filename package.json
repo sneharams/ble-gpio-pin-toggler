@@ -13,6 +13,10 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sneharams/ble-gpio-pin-toggler.git"
+  },
   "dependencies": {
     "core-js": "^3.8.3",
     "express": "^4.18.1",
