@@ -20,7 +20,6 @@ const io = require("socket.io")(http, {
 });
 
 const hubs = new Map(); // holds connected hubs (maps id to name)
-// hubs.set("id", "test");
 
 app.use(express.static(__dirname + staticPath));
 
